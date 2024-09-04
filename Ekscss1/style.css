@@ -1,0 +1,154 @@
+*{
+    font-family: tahoma;
+}
+
+.head{
+    display: flex;
+    background-color: bisque;
+    padding: 10px;
+}
+
+.headlogo img{
+    height: 120px;
+}
+
+.headlogo{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.headtitle{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.headtitle a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+.nav{
+    background-color: brown;
+    padding: 1px;
+    margin-top: 0px;
+}
+
+.navitem{
+    display: inline-block;
+}
+
+.navitem a{
+    padding-left: 0px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: 120%;
+    color: rgb(116, 163, 251);
+}
+
+.navitem a:hover{
+    color: aqua;
+}
+
+.konten{
+    margin-left: 10px;
+}
+
+.konten h1{
+    color: rgb(17, 92, 66);
+}
+
+.konten h2{
+    color: rgb(19, 132, 92);;
+}
+
+.tabel{
+    border-spacing: 4px;
+}
+
+.tabeljudul{
+    background-color: bisque;
+    font-size: 110%;
+}
+
+.tabeljudul th{
+    padding: 10px;
+    text-align: left;
+}
+
+td>img{
+    width: 150px;
+}
+
+td{
+    padding: 10px;
+}
+
+.genap{
+    background-color: azure;
+}
+
+.ganjil{
+    background-color: ivory;
+}
+
+.tabelkonten:hover{
+    background-color: rgb(208, 233, 233);
+}
+
+.formgrup{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.satu{
+    margin-top: 40px;
+}
+
+.formgrup label{
+    display: block;
+    margin-bottom: 10px;
+    color: darkslategray;
+    font-size: 15px;
+}
+
+.formgrup input{
+    display: block;
+    background-color: rgb(231, 231, 231);
+    padding: 5px;
+    width: 50%;
+
+}
+
+.formgrup textarea{
+    display: block;
+    background-color: rgb(231, 231, 231);
+    padding: 5px;
+    width: 50%;
+    height: 100px;
+    
+}
+
+.kirim{
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+    background-color: bisque;
+    font-weight: bold;
+
+}
+
+.kirim:hover{
+    background-color: brown;
+    color: rgb(116, 163, 251);;
+}
+
+.kirim:active{
+    background-color: cadetblue;
+    color: darkred;
+}
+
+
+
+
